@@ -42,4 +42,14 @@ public class Laptop {
     public void setColor(String color) {
         Color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Laptop{" +
+                "ram=" + ram +
+                ", HDD=" + HDD +
+                ", OS='" + OS + '\'' +
+                ", Color='" + Color + '\'' +
+                '}';
+    }
 }
